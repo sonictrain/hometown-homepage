@@ -1,0 +1,130 @@
+/**
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1D3557;
+}
+
+#hero-section {
+    background-image: url(images/Eleybridge_hero.webp);
+    background-size: cover;
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#hero-title {
+    padding: 10px 15px;
+    color: #F1FAEE;
+    background-color: #1D3557;
+    margin: 0px;
+}
+
+#hero-caption {
+    margin: 0px 0px 40px 0px;
+    width: 50%;
+    padding: 10px 15px;
+    color: #F1FAEE;
+    background-color: #1D3557;
+}
+
+#btn-cta {
+    padding: 10px 20px;
+    color: #F1FAEE;
+    background: #457B9D;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#btn-cta:hover {
+    background: #1D3557;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    padding: 50px 250px;
+    margin: 0;
+    box-shadow: 0px 0px 43px 17px rgba(0,0,39,0.26);
+}
+
+#activities-section-title {
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 20px auto 30px auto;
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.activity {
+    padding: 20px 50px;
+    width: 350px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.activity-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    font-size: large;
+}
+
+.activity-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.card-section {
+    background-color: #A8DADC;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    border-bottom: 12px solid #1D3557;
+    border-radius: 10px;
+}
+
+#card-img {
+    width: 220px;
+    height: 300px;
+    background-image: url(images/local-guide.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#card-info {
+    text-align: left;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px;
+}
+
+#card-text {
+    font-style: italic;
+}
